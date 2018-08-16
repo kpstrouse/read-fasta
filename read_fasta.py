@@ -18,4 +18,6 @@ if len(sys.argv) < 2:
     print('Usage:', sys.argv[0], '<sequence.fa>')
     exit(1)
 
+# use file name from command line
+
 print(read_fasta(sys.argv[1]))
